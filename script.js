@@ -21,12 +21,12 @@ button01.addEventListener('click', () => {
     const SomarValores = NumberUsuario + NumeroBot
 
     if(NumberUsuario > 10) {
-        return  alert('Número precisa entre 1 e 10')
+        return  alert('O número precisa ser entre [ 1 e 10 ]')
         
     }
 
     if(select.value === "" ||    isNaN(NumberUsuario)) {
-        return alert('Por favor preencha os campos abaixo!')
+        return alert('Por favor preencha todos os valores abaixo!')
     }
 
     if(select.value === "par" && SomarValores % 2 === 0 || select.value === "impar" && SomarValores % 2 === 1){
@@ -47,9 +47,9 @@ button01.addEventListener('click', () => {
 
 button02.addEventListener('click', () => {
     escuro.style.visibility = "visible"
-    placar.innerHTML = `Placar 🏁<br>🎲Partidas: ${partidas}<br>Vitorias: ${vitorias}<br>Derrotas:${derrotas}`
+    placar.innerHTML = `Placar Final 🏁<br>🎲 Partidas: ${partidas}<br>🎉 Vitorias: ${vitorias}<br>😒 Derrotas: ${derrotas}`
     placar.style.transform = "translateX(10px)"
-    placar.style.trasition = "transform 1s ease-in-out"
+    placar.style.trasition = "transform 1.1s ease-in-out"
     placar.style.visibility = "visible"
 
 })
