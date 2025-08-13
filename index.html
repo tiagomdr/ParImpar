@@ -11,8 +11,21 @@
         <main>
             <img src="assets/Par-Impar.png" alt="imagem do par e impar">
             <h1> Insira um número e descubra se ele é Par ✅ ou Ímpar ❌.</h1>
-            <input type="number" placeholder="Digite um valor...">
-            <button>Verificar</button>
+            <div>
+                <input type="number" placeholder="Digite um valor...">
+                <select class="selecionarParImpar">
+                    <option value=""selected disabled>Escolher 🚩 </option>
+                    <option value="par">Par ✅</option>
+                    <option value="impar">impar ❌</option>
+                </select>
+                <select class="avatar">
+                    <option value="" selected disabled>Escolha Avatar 😊</option>
+                    <option value="🧑‍💻">Masculino 🧑‍💻</option>
+                    <option value="👩‍💻">Feminino 👩‍💻</option>
+                    <option value="🌓">Avatar 🌓</option>
+                </select>
+            </div>  
+            <button>Jogar 🎲</button>
             <p class="par impar"></p>
         </main>
 </body>
