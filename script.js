@@ -21,6 +21,14 @@ button01.addEventListener('click', () => {
 
     const SomarValores = NumberUsuario + NumeroBot
 
+    let ParOuImpar = 0;
+
+    if(SomarValores % 2 == 0 ) {
+        ParOuImpar = "Par"
+    } if (SomarValores % 2 == 1) {
+        ParOuImpar = "impar"
+    }
+
     if (NumberUsuario > 10 || NumberUsuario < 0) {
         return alert('O número precisa ser entre [ 0 e 10 ]')
 
@@ -30,15 +38,19 @@ button01.addEventListener('click', () => {
         return alert('Por favor preencha todos os valores abaixo!')
     }
 
+    if(avatar === "") {
+        return alert('Por favor selecione um avatar')
+    }
+
     if (select.value === "par" && SomarValores % 2 === 0 || select.value === "impar" && SomarValores % 2 === 1) {
         vitorias++
-        resultado.innerHTML = `${avatar} [${NumberUsuario}] 🤖 [${NumeroBot}]<br>Soma: ${SomarValores}<br>Você Ganhou! 🎉`;
+        resultado.innerHTML = `${avatar} [${NumberUsuario}] 🤖 [${NumeroBot}]<br>${SomarValores} é ${ParOuImpar}<br>Você Ganhou! 🎉`;
 
         resultado.style.background = "green"
         resultado.style.visibility = "visible"
     } else {
         derrotas++
-        resultado.innerHTML = `${avatar} [${NumberUsuario}] 🤖 [${NumeroBot}]<br>Soma: ${SomarValores}<br>Bot Ganhou! 🥲 `;
+        resultado.innerHTML = `${avatar} [${NumberUsuario}] 🤖 [${NumeroBot}]<br>${SomarValores} é ${ParOuImpar}<br>Bot Ganhou! 🥲 `;
         resultado.style.background = "red"
         resultado.style.visibility = "visible"
     }
@@ -49,8 +61,12 @@ button01.addEventListener('click', () => {
 button02.addEventListener('click', () => {
 const avatar = document.querySelector('.avatar').value
 
-    if(vitorias == 0 || derrotas == 0) {
-         return alert('Para ver placar primeiro jogue uma partida!')
+    if(partidas === 0) {
+          return alert('Para ver placar primeiro jogue uma partida!')
+    } 
+
+    if(avatar === "") {
+        return alert('Selecione um avatar')
     }
 
     if (vitorias > derrotas) {
