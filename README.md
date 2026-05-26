@@ -4,15 +4,12 @@ Um jogo interativo onde você testa sua sorte contra o computador. Escolha seu n
 ---
 
 # 🛠 Tecnologias Utilizadas
-- Estrutura e formulários
-
-- Estilização, estados de hover e animações (Keyframes)
-
-- Lógica do sorteio, validação e manipulação do DOM
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  — Estrutura semântica do site  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) — Layout responsivo, estilos modernos e animações  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) — Interatividade, sliders, menu mobile e validação 
 
 ---
 
 # ✨ Funcionalidades
+
 **Seleção de Avatar:** Escolha o seu personagem antes de começar a partida.
 **Placar Dinâmico:** Acompanhe quem está ganhando a série de partidas.
 **Escolha Estratégica:** Selecione um número de 0 a 10 e sua escolha (Par ou Ímpar).
