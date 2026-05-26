@@ -21,7 +21,7 @@ Um jogo interativo onde você testa sua sorte contra o computador. Escolha seu n
 
 # 📷 Prévia do Projeto
 
-- Delopy do Projeto: https://tiagomdr.github.io/academia/
+- Delopy do Projeto: https://tiagomdr.github.io/ParImpar/
 <br>
 <br> 
 <img src="https://github.com/tiagomdr/ParImpar/blob/main/assets/ParOuImpar%20(2).png" alt="Previa do projeto" width="500px">
