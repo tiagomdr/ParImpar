@@ -23,5 +23,5 @@ Um jogo interativo onde você testa sua sorte contra o computador. Escolha seu n
 
 - Delopy do Projeto: https://tiagomdr.github.io/academia/
 <br>
-<br>
-<img src="https://github.com/tiagomdr/academia/blob/main/img/fitness.png" alt="Previa do projeto" width="500px">
+<br> 
+<img src="https://github.com/tiagomdr/ParImpar/blob/main/assets/ParOuImpar%20(2).png" alt="Previa do projeto" width="500px">
