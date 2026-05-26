@@ -12,7 +12,7 @@ Um jogo interativo onde você testa sua sorte contra o computador. Escolha seu n
 
 ---
 
-✨ Funcionalidades
+# ✨ Funcionalidades
 Seleção de Avatar: Escolha o seu personagem antes de começar a partida.
 
 Escolha Estratégica: Selecione um número de 0 a 10 e sua escolha (Par ou Ímpar).
